@@ -10,23 +10,24 @@
         height: 300px;
         flex-flow: row nowrap;
         justify-content: space-between;
-        align-items: baseline;
+        align-items: flex-end;
     }
     
     .child { 
-        width: 100px;
+        width: 100px; 
+        height: 100px;
     }
 
     .child1 { background: skyblue; }
-    .child2 { background: powderblue; }
+    .child2 { background: powderblue; align-self: flex-start; }
     .child3 { background: cadetblue; }
 
     .child4 { background: indianred; }
-    .child5 { background: salmon; font-size: 75px; }
+    .child5 { background: salmon; align-self: baseline; }
     .child6 { background: firebrick; }
 
     .child7 { background: yellowgreen; }
-    .child8 { background: olivedrab;}
+    .child8 { background: olivedrab; align-self: center; }
     .child9 { background: olive; }
 
 
