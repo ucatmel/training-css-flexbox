@@ -14,9 +14,9 @@
         height: 100px;
     }
 
-    .child1 { background: skyblue; flex-basis: 300px; flex-grow: 1; flex-shrink: 1; }
-    .child2 { background: powderblue; flex-basis: 300px; flex-grow: 5; flex-shrink: 5; }
-    .child3 { background: cadetblue; flex-basis: 300px; flex-grow: 1; flex-shrink: 1; }
+    .child1 { background: skyblue; flex: 1 1 300px; }
+    .child2 { background: powderblue; flex: 10 5 300px; }
+    .child3 { background: cadetblue; flex: 1 1 300px; }
 
     .child4 { background: indianred; }
     .child5 { background: salmon; }
@@ -26,10 +26,12 @@
     .child8 { background: olivedrab; }
     .child9 { background: olive; }
 
+    
 
 
 </style>
-
+<!-- flex: [flex-grow] [flex-shrink] [flex-basis]-->
+<!-- flex: 0 1 auto (default)-->
 
 </head>
 
