@@ -7,26 +7,24 @@
     #parent { 
         background: gainsboro;
         display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
+        flex-flow: row nowrap;
     }
     
     .child { 
-        width: 100px; 
         height: 100px;
     }
 
-    .child1 { background: skyblue; order: 0; }
-    .child2 { background: powderblue; order: -5; }
-    .child3 { background: cadetblue; order: 7; }
+    .child1 { background: skyblue; flex-basis: 300px; flex-grow: 1; }
+    .child2 { background: powderblue; flex-basis: 300px; flex-grow: 5; }
+    .child3 { background: cadetblue; flex-basis: 300px; flex-grow: 1; }
 
-    .child4 { background: indianred; order: 6; }
-    .child5 { background: salmon; order: -5; }
+    .child4 { background: indianred; }
+    .child5 { background: salmon; }
     .child6 { background: firebrick; }
 
-    .child7 { background: yellowgreen; order: 3; }
-    .child8 { background: olivedrab; order: 2; }
-    .child9 { background: olive; order: 1; }
+    .child7 { background: yellowgreen; }
+    .child8 { background: olivedrab; }
+    .child9 { background: olive; }
 
 
 
@@ -41,13 +39,13 @@
         <div class="child child2">2</div>
         <div class="child child3">3</div>
 
-        <div class="child child4">4</div>
+<!--     <div class="child child4">4</div>
         <div class="child child5">5</div>
         <div class="child child6">6</div>
 
         <div class="child child7">7</div>
         <div class="child child8">8</div>
-        <div class="child child9">9</div>                
+        <div class="child child9">9</div>    -->         
 
     </div>
 
