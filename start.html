@@ -7,10 +7,11 @@
     #parent { 
         background: gainsboro;
         display: flex;
-        height: 300px;
-        flex-flow: row nowrap;
+        height: 600px;
+        width: 300px;
+        flex-flow: row wrap;
         justify-content: space-between;
-        align-items: flex-end;
+        align-content:space-between;
     }
     
     .child { 
@@ -19,15 +20,15 @@
     }
 
     .child1 { background: skyblue; }
-    .child2 { background: powderblue; align-self: flex-start; }
+    .child2 { background: powderblue; }
     .child3 { background: cadetblue; }
 
     .child4 { background: indianred; }
-    .child5 { background: salmon; align-self: baseline; }
+    .child5 { background: salmon; }
     .child6 { background: firebrick; }
 
     .child7 { background: yellowgreen; }
-    .child8 { background: olivedrab; align-self: center; }
+    .child8 { background: olivedrab; }
     .child9 { background: olive; }
 
 
