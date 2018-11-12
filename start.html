@@ -7,11 +7,8 @@
     #parent { 
         background: gainsboro;
         display: flex;
-        height: 600px;
-        width: 300px;
         flex-flow: row wrap;
         justify-content: space-between;
-        align-content:space-between;
     }
     
     .child { 
@@ -19,17 +16,17 @@
         height: 100px;
     }
 
-    .child1 { background: skyblue; }
-    .child2 { background: powderblue; }
-    .child3 { background: cadetblue; }
+    .child1 { background: skyblue; order: 0; }
+    .child2 { background: powderblue; order: -5; }
+    .child3 { background: cadetblue; order: 7; }
 
-    .child4 { background: indianred; }
-    .child5 { background: salmon; }
+    .child4 { background: indianred; order: 6; }
+    .child5 { background: salmon; order: -5; }
     .child6 { background: firebrick; }
 
-    .child7 { background: yellowgreen; }
-    .child8 { background: olivedrab; }
-    .child9 { background: olive; }
+    .child7 { background: yellowgreen; order: 3; }
+    .child8 { background: olivedrab; order: 2; }
+    .child9 { background: olive; order: 1; }
 
 
 
