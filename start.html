@@ -20,24 +20,27 @@
         background: skyblue; 
         flex: 1 1 300px; 
         display: flex;
-        flex-flow: row nowrap
+        flex-flow: row nowrap;
+        order: 3;
     }
     .child2 { 
         background: powderblue; 
         flex: 10 5 300px; 
         display: flex;
-        flex-flow: row nowrap
+        flex-flow: row nowrap;
+        order: 2;
     }
     .child3 { 
         background: cadetblue; 
         flex: 1 1 300px; 
         display: flex;
-        flex-flow: row nowrap
+        flex-flow: row nowrap;
+        order: 1;
     }
 
-    .child4 { background: indianred; order: 3; }
+    .child4 { background: indianred; order: -3; }
     .child5 { background: salmon;  order: 2}
-    .child6 { background: firebrick; order: 1; }
+    .child6 { background: firebrick;  }
 
     .child7 { background: yellowgreen; order: 3; }
     .child8 { background: olivedrab; order: 2; }
