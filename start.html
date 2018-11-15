@@ -14,14 +14,14 @@
         height: 100px;
     }
 
-    .childnested { width: 100px;}
+    .childnested { flex-grow: 1; }
 
     .child1 { background: skyblue; flex: 1 1 300px; }
     .child2 { 
         background: powderblue; 
         flex: 10 5 300px; 
         display: flex;
-        flex-flow: row wrap
+        flex-flow: row nowrap
     }
     .child3 { background: cadetblue; flex: 1 1 300px; }
 
